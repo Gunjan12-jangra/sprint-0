@@ -116,7 +116,6 @@ print("Python is installed successfully!")
 | ------ | ------ |
 | https://www.python.org/ | Official Python website |
 | https://docs.python.org/3/ | Python documentation |
-| https://pypi.org/ | Python Package Index (PyPI) |
 
 ---
 
