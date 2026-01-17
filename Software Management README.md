@@ -235,7 +235,7 @@ It allows users to install, update, upgrade, remove, and clean packages efficien
 
 | Reference | Link |
 | ----- | ----- |
-| Linux Man Pages-apt |	https://man7.org/linux/man-pages/man8/apt.8.html |
+| Linux Man Pages-apt |https://manpages.ubuntu.com/manpages/resolute/en/man8/apt.8.html?utm_source |
 | Ubuntu Documentation |	https://help.ubuntu.com/community/Apt |
 
 ---
