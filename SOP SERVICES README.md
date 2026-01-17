@@ -1,5 +1,5 @@
 # Standard Operating Procedure (SOP's) for systemctl
-## Step by step guide to start, stop, enable, disable, and check status of services using systemctl on Ubuntu
+## Managing Services Using systemctl on Ubuntu 
 
 ---
 
@@ -12,11 +12,11 @@
 5. Software Overview
 6. System Requirement
 7. Dependencies
-8. Types of services
-9. Service Management using systemctl (with Examples)
-10. Troubleshooting
-11. Summary
-12. Author
+8. Service Management using systemctl (with Example)
+9. Troubleshooting
+10. Summary
+11. Author
+12. References
 
 ---
 
@@ -99,47 +99,35 @@ Systemctl is used to:
 
 ---
 
-## Types of Services (Internal vs External)
-### 1. Internal Service (System/Internal Service)
-
-Internal services are core system services required for the operating system to function properly. These services usually start automatically at boot time and are managed by the OS.
-
-Example: ssh
-
-#### Use case:
-
-- Remote server access
-- System administration
-
-### 2. External Service (User-installed / Application Service)
-
-External services are installed by users or administrators to provide additional functionality such as web servers, databases, or container runtimes.
-
-Example: nginx
-
-#### Use case:
-
-- Web hosting
-- Reverse proxy
-- Load balancing
-  
----
-
 ## Service Management using systemctl
 
-### 1. External Service Example: nginx
-
-#### 1. Start a Service
+### 1. Start a Service
 
 Used to start a service immediately.
+
+#### Syntax: 
+
+```bash
+systemctl start <service-name>
+```
+#### Example
 
 ```bash
 sudo systemctl start nginx
 ```
 
-#### 2. Stop a Service
+---
+
+### 2. Stop a Service
 
 Used to stop a running service.
+
+#### Syntax: 
+
+```bash
+systemctl stop <service-name>
+```
+#### Example
 
 ```bash
 sudo systemctl stop nginx
@@ -149,9 +137,17 @@ sudo systemctl stop nginx
 
 ---
 
-#### 3. Restart a Service
+### 3. Restart a Service
 
 Used to stop and start the service again.
+
+#### Syntax: 
+
+```bash
+systemctl restart <service-name>
+```
+
+#### Example
 
 ```bash
 sudo systemctl restart nginx
@@ -160,17 +156,34 @@ sudo systemctl restart nginx
 <img width="1759" height="706" alt="image" src="https://github.com/user-attachments/assets/ed893c5f-d1d5-4ab9-b793-5aa3a462b3a2" />
 
 ---
-#### 6. Enable a Service (Start on Boot)
+### 6. Enable a Service (Start on Boot)
 
 Used to start the service automatically when the system boots.
+
+#### Syntax: 
+
+```bash
+systemctl enable <service-name>
+```
+#### Example
 
 ```bash
 sudo systemctl enable nginx
 ```
 
-#### 5. Disable a Service (Do Not Start on Boot)
+---
+
+### 5. Disable a Service (Do Not Start on Boot)
 
 Used to prevent the service from starting at boot.
+
+#### Syntax: 
+
+```bash
+systemctl disable <service-name>
+```
+
+#### Example
 
 ```bash
 sudo systemctl disable nginx
@@ -180,9 +193,17 @@ sudo systemctl disable nginx
 
 ---
 
-#### 6. Check Service Status
+### 6. Check Service Status
 
 Used to check whether the service is running or stopped.
+
+#### Syntax: 
+
+```bash
+systemctl status <service-name>
+```
+
+#### Example
 
 ```bash
 sudo systemctl status nginx
@@ -214,6 +235,15 @@ It provides administrators with full control over both internal and external ser
 | Name             | Role            | Team                 |
 | ---------------- | --------------- | -------------------- |
 | Gunjan Jangra | DevOps Trainee | Saarthi |
+
+## References
+
+| Reference                 | Link                                                             |
+| ------------------------- | ---------------------------------------------------------------- |
+| Linux Man Pages – systemctl   |      https://man7.org/linux/man-pages/man1/systemctl.1.html |
+| DigitalOcean Community Tutorial     | https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units  |
+
+---
 
 
 
