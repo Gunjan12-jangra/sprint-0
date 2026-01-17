@@ -9,16 +9,14 @@
 2. Features
 3. Purpose
 4. Pre-requisites
-5. How to Run systemctl Commands
-6. Service Management using systemctl (with Examples)
-7. Start Service
-8. Stop Service
-9. Restart Service
-10. Enable Service
-11. Disable Service
-12. Check Service Status
-13. Troubleshooting
-14. Summary
+5. Software Overview
+6. System Requirement
+7. Dependencies
+8. Types of services
+9. Service Management using systemctl (with Examples)
+10. Troubleshooting
+11. Summary
+12. Author
 
 ---
 
