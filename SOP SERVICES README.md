@@ -213,11 +213,9 @@ It provides administrators with full control over both internal and external ser
 
 ## Author
 
-| Name	| Role	 | Team |
-| ------------ | ---------------------------------------------------- | 
-| Gunjan Jangra	 | DevOps Trainee	 | Saarthi |
-
----
+| Name             | Role            | Team                 |
+| ---------------- | --------------- | -------------------- |
+| Gunjan Jangra | DevOps Trainee | Saarthi |
 
 
 
