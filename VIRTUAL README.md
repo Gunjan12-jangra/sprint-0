@@ -145,6 +145,9 @@ pip install <package-name>
 ```bash
 pip install flask
 ```
+
+<img width="1856" height="580" alt="image" src="https://github.com/user-attachments/assets/b935a19f-71e1-4604-afd3-cb49a4ccfd0c" />
+
 ---
 
 ### 4. Freeze Installed Packages
@@ -162,6 +165,7 @@ pip freeze > requirements.txt
 ```bash
 pip freeze > requirements.txt
 ```
+
 ---
 
 ### 5. Deactivate a Virtual Environment
@@ -190,6 +194,9 @@ rm -rf <env-name>
 ```bash
 rm -rf myenv
 ```
+
+<img width="1693" height="314" alt="image" src="https://github.com/user-attachments/assets/2286ac3f-e6e6-46da-81c3-dcdaf43288af" />
+
 ---
 
 ## Troubleshooting
