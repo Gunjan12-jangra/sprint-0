@@ -5,34 +5,18 @@
 ### Table of Contents
 
 1. Introduction
-
 2. Features
-
-3. Purpose
-
-4. Pre-requisites
-
+3. Pre-requisites
 5. Software Overview
-
 6. System Requirement
-
 7. Dependencies
-
 8. Installation on Ubuntu 
-
 9. Quick Usage Test
-
 10. Troubleshooting
-
 11. Uninstall Python
-
-12. Examples
-
-13. Summary
-
-14. Author
-
-15. References
+12. Summary
+13. Author
+14. References
 
 ---
 
@@ -68,11 +52,14 @@ Installing Python on Ubuntu ensures that the system can run Python scripts and e
 | Disk Space |	Minimum 100 MB for Python installation |
 
 ---
+
 ## Software Overview
 
 | Software	| Version |	Description |
 | ------------- | ---------------| ------------------ |
 | Python	| 3.x (Recommended 3.11) |	High-level programming language for scripting, automation, and development |
+
+---
 
 ## System Requirement
 | Parameter	| Minimum Requirement |
@@ -81,6 +68,8 @@ Installing Python on Ubuntu ensures that the system can run Python scripts and e
 | RAM |	2 GB |
 | Disk Space | 100 MB |
 | Internet | Connection	Required |
+
+---
 
 ## Dependencies
 | Package |	Purpose |
@@ -93,50 +82,109 @@ Installing Python on Ubuntu ensures that the system can run Python scripts and e
 | libsqlite3-dev |	SQLite database support |
 | wget / curl |	Download files and packages |
 
+---
+
 ## Installation – Ubuntu 
-Step 1: Update Package Index
+### Step 1: Update Package 
+
+```bash
 sudo apt update -y
+```
 
+<img width="1495" height="359" alt="image" src="https://github.com/user-attachments/assets/7c4fe16e-0584-4502-8407-c8af483c228c" />
 
-Step 2: Install Python
-Option A: Install Default Python Version
+---
+
+### Step 2: Install Python
+#### Option A: Install Default Python Version
+
+```bash
 sudo apt install -y python3
+```
 
-Option B: Install Specific Version (e.g., Python 3.11)
+#### Option B: Install Specific Version (e.g., Python 3.11)
+
+```bash
 sudo apt install -y python3.11 python3.11-venv python3.11-dev python3-pip
+```
 
-Step 3: Verify Installation
+<img width="1359" height="228" alt="image" src="https://github.com/user-attachments/assets/06c69acb-e909-4c46-8acd-84317e2fb147" />
+
+---
+
+### Step 3: Verify Installation
+
+```bash
 python3 --version
 pip3 --version
+```
 
+<img width="1120" height="108" alt="image" src="https://github.com/user-attachments/assets/75c10349-35a8-4428-9298-96d522a25743" />
 
-Expected Output: Python 3.x.x and pip x.x.x
+---
 
-Step 4: Set Default Python Version (Optional)
+### Step 4: Set Default Python Version (Optional)
+
+```bash
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.11 1
 sudo update-alternatives --config python3
+```
+---
 
-9. Quick Usage Test
+## Quick Usage Test
 
-Open Python REPL:
+#### 1. Open Python REPL:
 
+```bash
 python3
+```
 
+#### 2. Run a simple test:
 
-Run a simple test:
-
+```bash
 print("Python is installed successfully!")
+```
 
-10. Troubleshooting
-Issue	Solution
-python3 command not found	Ensure Python installed: sudo apt install python3
-pip not found	Install pip: sudo apt install python3-pip
-Permission issues installing packages	Use: pip3 install --user <package> or sudo pip3 install <package>
-11. Uninstall Python
+<img width="1313" height="246" alt="image" src="https://github.com/user-attachments/assets/2627be80-2f6d-4780-8bf1-ed1ab00ac7f8" />
+
+---
+
+## Troubleshooting
+
+| Issue |	Solution |
+| ----------- | ------------- |
+| python3 command not found |	Ensure Python installed: sudo apt install python3 |
+| pip not found	| Install pip: sudo apt install python3-pip |
+| Permission issues installing packages |	Use: pip3 install --user <package> or sudo pip3 install <package> |
+
+---
+
+## Uninstall Python
+
+```bash
 sudo apt remove --purge python3.11 -y
 sudo apt autoremove -y
+```
+---
 
+## Summary
 
-Verify removal:
+This SOP provides step-by-step instructions to install, verify, and uninstall Python on Ubuntu.
 
-python3 --version
+---
+
+## Author
+
+| Name             | Role            | Team                 |
+| ---------------- | --------------- | -------------------- |
+| Gunjan Jangra | DevOps Trainee | Saarthi |
+
+---
+
+## References
+| Links	| Description |
+| ------ | ------ |
+| https://www.python.org/ | Official Python website |
+| https://docs.python.org/3/ | Python documentation |
+
+---
