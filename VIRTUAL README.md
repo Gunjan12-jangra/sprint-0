@@ -1,28 +1,29 @@
 # Standard Operating Procedure (SOP's) for Python Virtual Environment
 ## Managing Python Virtual Environment (venv) on Ubuntu
+
 ---
 
 ## Table of Contents
 
-1. Introduction
-2. Features
-3. Purpose
-4. Pre-requisites
-5. Software Overview
-6. System Requirement
-7. Dependencies
-8. Virtual Environment Management (with Examples)
-9. Troubleshooting
-10. Summary
-11. Author
-12. References
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Purpose](#purpose)
+4. [Pre-requisites](#pre-requisites)
+5. [Software Overview](#software-overview)
+6. [System Requirement](#system-requirement)
+7. [Dependencies](#dependencies)
+8. [Virtual Environment Management (with Examples)](#virtual-environment-management-using-venv)
+9. [Troubleshooting](#troubleshooting)
+10. [Summary](#summary)
+11. [Author](#author)
+12. [References](#references)
 
 ---
 
 ## Introduction
 
-Python Virtual Environment (venv) is a tool that helps create an isolated Python environment for a specific project.
-It allows users to install and manage project-specific Python packages without affecting the system-wide Python installation.
+Python Virtual Environment (venv) is a tool that helps create an isolated Python environment for a specific project.  
+It allows users to install and manage project-specific Python packages without affecting the system-wide Python installation.  
 This is especially useful when working on multiple projects that require different package versions.
 
 ---
@@ -49,56 +50,57 @@ Python virtual environments are used to:
 - Improve application stability
 - Support clean development practices
 - Simplify Python project setup for beginners
-- 
+
 ---
 
 ## Pre-requisites
 
-| Requirement |	Description |
-| ----------- | -------------------- |
-| OS Access |	User must have access to Linux system |
-| Python |	Python 3 must be installed |
-| Privileges |	Normal user access (sudo not recommended for pip) |
+| Requirement | Description |
+|-----------|------------|
+| OS Access | User must have access to Linux system |
+| Python | Python 3 must be installed |
+| Privileges | Normal user access (sudo not recommended for pip) |
 
 ---
 
 ## Software Overview
 
-| Software |	Description |
-| ------------ | ------------|
-| Python |	Programming language |
-| venv |	Built-in Python module for virtual environments |
-| pip	| Python package manager |
+| Software | Description |
+|---------|------------|
+| Python | Programming language |
+| venv | Built-in Python module for virtual environments |
+| pip | Python package manager |
 
 ---
 
 ## System Requirement
 
-| Requirement |	Minimum Recommendation |
-| -------------- | ---------------------- |
-| OS | 	Ubuntu |
-| Python | Version	Python 3.x |
-| RAM	 | 1 GB or higher |
-| Disk |	100 MB or higher |
+| Requirement | Minimum Recommendation |
+|------------|------------------------|
+| OS | Ubuntu |
+| Python | Python 3.x |
+| RAM | 1 GB or higher |
+| Disk | 100 MB or higher |
 
 ---
 
 ## Dependencies
+
 | Dependency | Description |
-| ---------------- | ---------------------------------- |
+|------------|------------|
 | python3-venv | Package required to create virtual environments |
 
-➡️ Note: Most modern Ubuntu versions come with venv support by default.
+**Note:** Most modern Ubuntu versions come with venv support by default.
 
 ---
 
 ## Virtual Environment Management using venv
+
 ### 1. Create a Virtual Environment
 
 Used to create a new isolated Python environment.
 
-#### Syntax:
-
+#### Syntax
 ```bash
 python3 -m venv <env-name>
 ```
