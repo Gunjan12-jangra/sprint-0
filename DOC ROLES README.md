@@ -107,8 +107,8 @@ roles/
 
 ### templates/
 
-* Contains Jinja2 template files (`.j2`).
-* Supports variables, conditionals, and loops.
+- Contains Jinja2 template files (`.j2`).
+- Supports variables, conditionals, and loops.
 
 **Example use case:** Dynamic configuration files.
 
@@ -116,8 +116,8 @@ roles/
 
 ### meta/
 
-* Holds role metadata.
-* Defines dependencies, supported platforms, and Ansible version.
+- Holds role metadata.
+- Defines dependencies, supported platforms, and Ansible version.
 
 **Example use case:** Declaring dependent roles for automatic installation.
 
