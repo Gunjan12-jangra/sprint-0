@@ -10,7 +10,7 @@
 4. [Software Overview](#software-overview)
 5. [System Requirement](#system-requirement)
 6. [Dependencies](#dependencies)
-7. [Installation on Ubuntu](#installation-on-ubuntu)
+7. [Installation on Ubuntu](#Installation – Ubuntu)
 8. [Quick Usage Test](#quick-usage-test)
 9. [Troubleshooting](#troubleshooting)
 10. [Uninstall Python](#uninstall-python)
