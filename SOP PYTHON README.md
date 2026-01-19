@@ -4,20 +4,19 @@
 ## Step by Step Installation Guide for Python on Ubuntu
 ### Table of Contents
 
-1. Introduction
-2. Features
-3. Pre-requisites
-5. Software Overview
-6. System Requirement
-7. Dependencies
-8. Installation on Ubuntu 
-9. Quick Usage Test
-10. Troubleshooting
-11. Uninstall Python
-12. Summary
-13. Author
-14. References
-
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Pre-requisites](#pre-requisites)
+4. [Software Overview](#software-overview)
+5. [System Requirement](#system-requirement)
+6. [Dependencies](#dependencies)
+7. [Installation on Ubuntu](#installation-on-ubuntu)
+8. [Quick Usage Test](#quick-usage-test)
+9. [Troubleshooting](#troubleshooting)
+10. [Uninstall Python](#uninstall-python)
+11. [Summary](#summary)
+12. [Author](#author)
+13. [References](#references)
 ---
 
 ## Introduction
