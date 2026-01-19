@@ -10,13 +10,13 @@
 
 ## Index
 
-1. Introduction
-2. Why Python?
-3. Installation on Ubuntu
-4. Quick Usage Test
-5. Troubleshooting
-6. References
-7. End Note
+1. [Introduction](#introduction)
+2. [Why Python](#why-python)
+3. [Installation on Ubuntu](#installation-on-ubuntu)
+4. [Quick Usage Test](#quick-usage-test)
+5. [Troubleshooting](#troubleshooting)
+6. [References](#references)
+7. [End Note](#end-note)
 
 ---
 
