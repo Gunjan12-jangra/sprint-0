@@ -16,7 +16,7 @@
 3. [Purpose of Each Directory](#purpose-of-each-directory)
 4. [Usage Example](#usage-example)
 5. [Troubleshooting](#troubleshooting)
-6 [References](#references)
+6. [References](#references)
 7. [End Note](#end-note)
 
 ---
@@ -101,7 +101,7 @@ roles/
 - This folder holds static files that are copied directly to the target servers.
 - These files are usually used with the copy module in tasks.
 
-Example: Scripts, binaries, or configuration files that don’t need any changes.
+ **Example use case:** Scripts, binaries, or configuration files that don’t need any changes.
 
 ---
 
