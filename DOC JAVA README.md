@@ -10,13 +10,13 @@
 
 ## Index
 
-1. Introduction
-2. Why Java
-3. History
-4. Features
-5. Use Cases
-6. References
-7. End Note
+1. [Introduction](#introduction)
+2. [Why Java](#why-java)
+3. [History](#history)
+4. [Features](#features)
+5. [Use Cases](#use-cases)
+6. [References](#references)
+7. [End Note](#end-note)
 
 
 ## Introduction
