@@ -20,7 +20,7 @@
 5. [Software Overview](#software-overview)
 6. [System Requirement](#system-requirement)
 7. [Dependencies](#dependencies)
-8. [Service Management using systemctl (with Example)](#service-management-using-systemctl-with-example)
+8. [Service Management using systemctl (with Example)](#Service-Management-using-systemctl)
 9. [Troubleshooting](#troubleshooting)
 10. [Summary](#summary)
 11. [Contact Information](#contact-information)
@@ -164,6 +164,7 @@ sudo systemctl restart nginx
 <img width="1759" height="706" alt="image" src="https://github.com/user-attachments/assets/ed893c5f-d1d5-4ab9-b793-5aa3a462b3a2" />
 
 ---
+
 ### 6. Enable a Service (Start on Boot)
 
 Used to start the service automatically when the system boots.
