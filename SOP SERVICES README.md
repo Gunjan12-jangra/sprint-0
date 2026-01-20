@@ -3,6 +3,14 @@
 
 ---
 
+## Authors
+
+| Author           | Created    | Version | Last updated by  | Last Edited On | Pre Reviewer | L0 Reviewer | L1 Reviewer | L2 Reviewer |
+| ---------------- | ---------- | ------- | ---------------- | -------------- | ------------ | ----------- | ----------- | ----------- |
+| Gunjan Jangra  | 18-01-2026    |  1.0     | Gunjan Jangra |  18-01-2026     |              |             |             |             |
+
+---
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -15,7 +23,7 @@
 8. [Service Management using systemctl (with Example)](#service-management-using-systemctl-with-example)
 9. [Troubleshooting](#troubleshooting)
 10. [Summary](#summary)
-11. [Author](#author)
+11. [Contact Information](#contact-information)
 12. [References](#references)
 
 ---
@@ -230,11 +238,13 @@ It provides administrators with full control over both internal and external ser
 
 ---
 
-## Author
+## Contact Information
 
-| Name             | Role            | Team                 |
-| ---------------- | --------------- | -------------------- |
-| Gunjan Jangra | DevOps Trainee | Saarthi |
+| Contact Type | Details                                                             |
+| ------------ | ------------------------------------------------------------------- |
+| Email        | [jangragunjan39@gmail.com](mailto:jangragunjan39@gmail.com) |
+
+---
 
 ## References
 
