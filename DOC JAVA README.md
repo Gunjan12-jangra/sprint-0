@@ -1,22 +1,25 @@
 # Java Intro Documentation
----
-
-## Document Details
-| Author | Created on | Last updated by |	Last edited on |
-|-------- | ---------| -------- | -------- |
-| Gunjan |	19-01-2026 |	Gunjan |	19-01-2026 |
 
 ---
 
-## Index
+## Authors
+
+| Author           | Created    | Version | Last updated by  | Last Edited On | Pre Reviewer | L0 Reviewer | L1 Reviewer | L2 Reviewer |
+| ---------------- |---------------- | ------- | ---------------- | -------------- | ------------ | ----------- | ----------- | ----------- |
+| Gunjan Jangra  |  19-01-2026    |  1.0     | Gunjan Jangra |  19-01-2026     |              |             |             |             |
+
+---
+
+## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Why Java](#why-java)
 3. [History](#history)
 4. [Features](#features)
 5. [Use Cases](#use-cases)
-6. [References](#references)
-7. [End Note](#end-note)
+6. [Contact Information](#contact-information)
+7. [References](#references)
+8. [End Note](#end-note)
 
 
 ## Introduction
@@ -42,7 +45,7 @@ Java was developed by James Gosling and his team at Sun Microsystems in the earl
 The project was initially called Oak and was intended for programming consumer electronic devices such as set-top boxes and televisions.
 In 1995, Oak was renamed Java and officially released. With the rapid growth of the internet, Java gained popularity because of its ability to run the same program on different platforms using the Java Virtual Machine (JVM).
 In 2010, Sun Microsystems was acquired by Oracle Corporation, which became the official maintainer of Java. 
-Since then, Java has continued to evolve with regular updates and is widely used in enterprise applications, web development, mobile (Android), and cloud-based systems.
+Since then, Java is widely used in enterprise applications, web development, mobile (Android), and cloud-based systems.
 
 ---
 
@@ -73,6 +76,14 @@ Since then, Java has continued to evolve with regular updates and is widely used
 | --------------------------- | -------------------- |
 | https://www.oracle.com/java/ | Official Java website |
 | https://docs.oracle.com/javase/ | Java documentation |
+
+---
+
+## Contact Information
+
+| Contact Type | Details                                                             |
+| ------------ | ------------------------------------------------------------------- |
+| Email        | [jangragunjan39@gmail.com](mailto:jangragunjan39@gmail.com) |
 
 ---
 
