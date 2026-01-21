@@ -3,20 +3,26 @@
 
 ---
 
+## Authors
+
+| Author           | Created    | Version | Last updated by  | Last Edited On | Pre Reviewer | L0 Reviewer | L1 Reviewer | L2 Reviewer |
+| ---------------- |---------------- | ------- | ---------------- | -------------- | ------------ | ----------- | ----------- | ----------- |
+| Gunjan Jangra  |  19-01-2026    |  1.0     | Gunjan Jangra |  19-01-2026     |              |             |             |             |
+
+---
+
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Purpose](#purpose)
-4. [Pre-requisites](#pre-requisites)
-5. [Software Overview](#software-overview)
-6. [System Requirement](#system-requirement)
-7. [Dependencies](#dependencies)
-8. [Virtual Environment Management (with Examples)](#virtual-environment-management-using-venv)
-9. [Troubleshooting](#troubleshooting)
-10. [Summary](#summary)
-11. [Author](#author)
-12. [References](#references)
+1. [Introduction](#introduction) 
+2. [Pre-requisites](#pre-requisites)
+3. [Software Overview](#software-overview)
+4. [System Requirement](#system-requirement)
+5. [Dependencies](#dependencies)
+6. [Virtual Environment Management (with Examples)](#virtual-environment-management-using-venv)
+7. [Troubleshooting](#troubleshooting)
+9. [Summary](#summary)
+10. [Contact Information](#contact-information)
+11. [References](#references)
 
 ---
 
@@ -25,31 +31,6 @@
 Python Virtual Environment (venv) is a tool that helps create an isolated Python environment for a specific project.  
 It allows users to install and manage project-specific Python packages without affecting the system-wide Python installation.  
 This is especially useful when working on multiple projects that require different package versions.
-
----
-
-## Features
-
-Python Virtual Environment provides the following features:
-
-- Isolates project dependencies
-- Prevents package version conflicts
-- Keeps system Python clean
-- Allows easy dependency management
-- Helps recreate environments using requirements files
-- Beginner-friendly and lightweight
-
----
-
-## Purpose
-
-Python virtual environments are used to:
-
-- Manage project-specific Python packages
-- Avoid dependency conflicts between projects
-- Improve application stability
-- Support clean development practices
-- Simplify Python project setup for beginners
 
 ---
 
@@ -232,10 +213,11 @@ They provide isolation, prevent conflicts, and ensure consistent development env
 
 ---
 
-## Author
-| Name |	Role |	Team |
-|----------- | ------------ | ---------------- |
-| Gunjan Jangra	| DevOps Trainee |	Saarthi |
+## Contact Information
+
+| Contact Type | Details                                                             |
+| ------------ | ------------------------------------------------------------------- |
+| Email        | [jangragunjan39@gmail.com](mailto:jangragunjan39@gmail.com) |
 
 ---
 
