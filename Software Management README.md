@@ -3,20 +3,32 @@
 
 ---
 
+## Authors
+
+| Author           | Created    | Version | Last updated by  | Last Edited On | Pre Reviewer | L0 Reviewer | L1 Reviewer | L2 Reviewer |
+| ---------------- |---------------- | ------- | ---------------- | -------------- | ------------ | ----------- | ----------- | ----------- |
+| Gunjan Jangra  |  19-01-2026    |  1.0     | Gunjan Jangra |  19-01-2026     |              |             |             |             |
+
+---
+
 ## Table of Contents
 
-1. Introduction
-2. Features
-3. Purpose
-4. Pre-requisites
-5. Software Overview
-6. System Requirement
-7. Dependencies
-8. Package Management using APT (with Example and Flags)
-9. Troubleshooting
-10. Summary
-11. Author
-12. References
+## Index
+
+## Index
+
+1. [Introduction](#introduction)  
+2. [Features](#features)  
+3. [Purpose](#purpose)  
+4. [Pre-requisites](#pre-requisites)  
+5. [Software Overview](#software-overview)  
+6. [System Requirement](#system-requirement)  
+7. [Dependencies](#dependencies)  
+8. [Package Management using APT](#package-management-using-apt)  
+9. [Troubleshooting](#troubleshooting)  
+10. [Summary](#summary)  
+11. [Contact Information](#contact-information)  
+12. [References](#references)  
 
 ---
 
@@ -224,10 +236,11 @@ It allows users to install, update, upgrade, remove, and clean packages efficien
 
 ---
 
-## Author
-| Name |	Role |	Team |
-| ----- | ------ | -----|
-| Gunjan Jangra |	DevOps Trainee |	Saarthi |
+## Contact Information
+
+| Contact Type | Details                                                             |
+| ------------ | ------------------------------------------------------------------- |
+| Email        | [jangragunjan39@gmail.com](mailto:jangragunjan39@gmail.com) |
 
 ---
 
