@@ -13,10 +13,6 @@
 
 ## Table of Contents
 
-## Index
-
-## Index
-
 1. [Introduction](#introduction)  
 2. [Features](#features)  
 3. [Purpose](#purpose)  
