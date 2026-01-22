@@ -1,4 +1,4 @@
-# Ansible Role | Directory Structure
+# Ansible Role Directory Structure - Detailed Documentation
 
 ---
 
@@ -10,7 +10,7 @@
 
 ---
 
-## Index
+## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Role Directory Structure](#role-directory-structure)
