@@ -1,11 +1,12 @@
 # Ansible Role | Directory Structure
 
-## Document Details
 ---
 
-| Author | Created on | Last updated by |	Last edited on |
-|-------- | ---------| -------- | -------- |
-| Gunjan |	19-01-2026 |	Gunjan |	19-01-2026 |
+## Authors
+
+| Author           | Created    | Version | Last updated by  | Last Edited On | Pre Reviewer | L0 Reviewer | L1 Reviewer | L2 Reviewer |
+| ---------------- |---------------- | ------- | ---------------- | -------------- | ------------ | ----------- | ----------- | ----------- |
+| Gunjan Jangra  |  21-01-2026    |  1.0     | Gunjan Jangra |  21-01-2026     |              |             |             |             |
 
 ---
 
@@ -16,8 +17,9 @@
 3. [Purpose of Each Directory](#purpose-of-each-directory)
 4. [Usage Example](#usage-example)
 5. [Troubleshooting](#troubleshooting)
-6. [References](#references)
-7. [End Note](#end-note)
+6. [Contact Information](#contact-information)
+7. [References](#references)
+8. [End Note](#end-note)
 
 ---
 
@@ -156,6 +158,14 @@ roles/
 | Role not found        | Verify roles_path or directory name |
 | Variables not applied | Check variable precedence           |
 | Handler not executed  | Ensure `notify` is defined in tasks |
+
+---
+
+## Contact Information
+
+| Contact Type | Details                                                             |
+| ------------ | ------------------------------------------------------------------- |
+| Email        | [jangragunjan39@gmail.com](mailto:jangragunjan39@gmail.com) |
 
 ---
 
