@@ -2,22 +2,22 @@
 
 Why, how to setup, best practices
 
+---
 
-## 📌 Table of Contents
 ## 📌 Table of Contents
 1. [Author Information](#1-author-information)
 2. [Introduction](#2-introduction)
 3. [Purposes](#3-purposes)
 4. [Key Features](#4-key-features)
 5. [Getting Started](#5-getting-started)
-   - 5.1 [Pre-requisites](#5.1-pre-requisites)
+   - 5.1 [Pre-requisites](#51-pre-requisites)
 6. [Software Overview](#6-software-overview)
 7. [System Requirements](#7-system-requirements)
 8. [Important Points](#8-important-points)
 9. [Dependencies](#9-dependencies)
-   - 9.1 [Run-time Dependency](#9.1-run-time-dependency)
-   - 9.2 [Other Dependency](#9.2-other-dependency)
-10. [How to Setup / Install](#10-how-to-setup--install)
+   - 9.1 [Run-time Dependency](#91-run-time-dependency)
+   - 9.2 [Other Dependency](#92-other-dependency)
+10. [How to Setup / Install](#10-how-to-setup--install-python-virtual-environment)
 11. [Configuration](#11-configuration)
 12. [Maintenance](#12-maintenance)
 13. [Monitoring](#13-monitoring)
@@ -66,7 +66,7 @@ Python virtual environments are used to solve the following problems:
 
 ## 5. Getting Started
 
-### 5.1. Pre-requisites
+### 5.1 Pre-requisites
 
 | Name | Description | Commercial Use | Open Source |
 |----|------------|---------------|-------------|
@@ -110,13 +110,13 @@ Python virtual environments are used to solve the following problems:
 
 ## 9. Dependencies
 
-### 9.1. Run-time Dependency
+### 9.1 Run-time Dependency
 
 | Dependency | Version | Description |
 |-----------|--------|------------|
 | Python | 3.x | Required to run virtual environments |
 
-### 9.2. Other Dependency
+### 9.2 Other Dependency
 
 | Dependency | Version | Description |
 |-----------|--------|------------|
