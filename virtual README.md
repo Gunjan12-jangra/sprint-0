@@ -4,18 +4,18 @@ What, Why, Advantages, Disadvantages, Workflow, Best Practices
 
 
 ## 📌 Table of Contents
-1. [Author Information](#author-information)
-2. [Introduction](#introduction)
-3. [What is SonarQube](#what-is-SonarQube)
-4. [Why SonarQube](#why-SonarQube)
-5. [Advantages](#advantages)
-6. [Disadvantages](#disadvantages)
-7. [SonarQube Workflow](#SonarQube-workflow)
-8. [Best Practices](#best-practices)
-9. [Conclusion](#conclusion)
-10. [FAQs](#faqs)
-11. [Contact Information](#contact-information)
-12. [References](#references)
+1. [Author Information](#Author-Information)
+2. [Introduction](#Introduction)
+3. [What is SonarQube](#What-is-SonarQube)
+4. [Why SonarQube](#Why-SonarQube)
+5. [Advantages](#Advantages)
+6. [Disadvantages](#Disadvantages)
+7. [SonarQube Workflow](#SonarQube-Workflow)
+8. [Best Practices](#Best-Practices)
+9. [Conclusion](#Conclusion)
+10. [FAQs](#Faqs)
+11. [Contact Information](#Contact-Information)
+12. [References](#References)
 
 ---
 
