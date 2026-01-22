@@ -1,4 +1,4 @@
-# React JS & NPM – Documentation
+# Ansible Inventory (Static File) – Documentation  
 
 Why, What, Key Features
 
@@ -6,16 +6,15 @@ Why, What, Key Features
 
 ## 📌 Table of Contents
 1. [Author Information](#1-author-information)
-2. [React JS](#2-react-js)
-   - [2.1 What is React JS](#21-what-is-react-js)
-   - [2.2 Why React JS](#22-why-react-js)
-   - [2.3 Key Features of React JS](#23-key-features-of-react-js)
-3. [NPM](#3-npm)
-   - [3.1 What is NPM](#31-what-is-npm)
-   - [3.2 Why NPM](#32-why-npm)
-   - [3.3 Key Features of NPM](#33-key-features-of-npm)
-4. [FAQs](#4-faqs)
-5. [Contact Information](#5-contact-information)
+2. [Ansible Inventory](#2-ansible-inventory)
+   - [2.1 What is Ansible Static Inventory](#21-what-is-ansible-static-inventory)
+   - [2.2 Why Static Inventory](#22-why-static-inventory)
+   - [2.3 Key Features of Static Inventory](#23-key-features-of-static-inventory)
+3. [Static Inventory Structure](#3-static-inventory-structure)
+4. [Test Inventory](#4-test-inventory)
+5. [FAQs](#5-faqs)
+6. [References](#6-references)
+7. [Contact Information](#7-contact-information)
 
 ---
 
@@ -23,96 +22,120 @@ Why, What, Key Features
 
 | Author | Created on | Version | Last updated by | Last edited on | Pre Reviewer | L0 Reviewer | L1 Reviewer | L2 Reviewer |
 |--------|------------|---------|-----------------|----------------|--------------|-------------|-------------|-------------|
-| Hardik Modi | 16-01-2026 | v1.0 | Hardik Modi | 16-01-2026 |  |  |  |  ||
+| Hardik Modi | 16-01-2026 | v1.0 | Hardik Modi | 16-01-2026 |  |  |  |  |
+---
+
+## 2. Ansible Inventory
+
+### 2.1 What is Ansible Static Inventory
+
+Ansible **Static Inventory** is a manually maintained file that contains a list of servers (hosts) along with their IP addresses or DNS names.
+
+It also defines:
+- Server grouping (web, db, app, etc.)
+- SSH connection details (user, key, port)
+- Environment-based organization (dev, qa, prod)
+
+Static inventory files are usually written in **INI** or **YAML** format.
 
 ---
 
-# 2. React JS
-
-## 2.1 What is React JS
-
-React JS is an open-source JavaScript **library** developed by Facebook (Meta) for building fast and interactive user interfaces.
-
-It is mainly used to create **single-page applications (SPAs)** using a component-based architecture.
-
----
-
-## 2.2 Why React JS
+### 2.2 Why Static Inventory
 
 | Reason | Description |
 |------|------------|
-| Reusable Components | Write once, use multiple times |
-| Fast Performance | Uses Virtual DOM |
-| Easy UI Development | Declarative syntax |
-| Strong Community | Backed by Meta and developers |
-| Industry Demand | Widely used in production apps |
+| Simple to Use | Easy to understand and configure |
+| Full Control | Manual control over servers |
+| Beginner Friendly | Best for learning Ansible |
+| No External Dependency | Does not require cloud APIs |
+| Stable Infra Support | Ideal for small and fixed environments |
 
 ---
 
-## 2.3 Key Features of React JS
+### 2.3 Key Features of Static Inventory
 
 | Feature | Description |
 |------|------------|
-| Component-Based | UI divided into small components |
-| Virtual DOM | Optimizes rendering performance |
-| JSX | HTML-like syntax in JavaScript |
-| One-Way Data Flow | Predictable data handling |
-| Large Ecosystem | Works well with many tools |
+| Host Definitions | Servers defined using IP or DNS |
+| Grouping Support | Logical grouping of hosts |
+| Variable Support | SSH user, key, ports |
+| Multiple Formats | INI and YAML supported |
+| Reliable Execution | Works consistently with Ansible |
 
 ---
 
-# 3. NPM
+## 3. Static Inventory Structure
 
-## 3.1 What is NPM
+A proper static inventory should:
+- List **all servers with correct names or IPs**
+- Organize servers into **groups**
+- Include **required SSH and runtime settings**
+- Work correctly with Ansible commands
 
-NPM (Node Package Manager) is the default **package manager** for Node.js.
+**Common inventory file name:**
+```bash
+hosts
+[web]
+web1 ansible_host=13.233.10.10
+web2 ansible_host=13.233.10.11
 
-It is used to install, update, remove, and manage JavaScript libraries and project dependencies.
+[db]
+db1 ansible_host=13.233.20.20
+
+[app]
+app1 ansible_host=13.233.30.30
+
+[production:children]
+web
+db
+app
+
+[production:vars]
+ansible_user=ec2-user
+ansible_ssh_private_key_file=~/mykey.pem
+ansible_python_interpreter=/usr/bin/python3
+```
+
+## 4. Test Inventory 
+
+ansible -i hosts production -m ping
+
+anisible -i hosts web -m ping
+
+## 5. FAQs
+
+**Q1. What is a static inventory in Ansible?**  
+A static inventory is a manually created file that lists hosts (servers) and groups along with their connection details such as IP addresses, SSH users, and keys.
+
+**Q2. Can static inventory be used in production?**  
+Yes, static inventory can be used in production environments that are small, stable, and do not change frequently.
+
+**Q3. Which format is better – INI or YAML?**  
+INI format is simpler and easier for beginners, while YAML is more structured, readable, and preferred for complex inventories.
+
+**Q4. Where should common variables be defined?**  
+Common variables should be defined using group variables (`[group:vars]`) or in the `group_vars` directory for better organization and reusability.
 
 ---
 
-## 3.2 Why NPM
+## 6. References
 
-| Reason | Description |
-|------|------------|
-| Dependency Management | Automatically handles libraries |
-| Time Saving | No manual setup needed |
-| Standard Tool | Default with Node.js |
-| Easy Sharing | Reuse code via packages |
-| Automation | Run scripts easily |
+- Ansible Inventory Documentation  
+  https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html
 
----
+- Ansible Best Practices  
+  https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html
 
-## 3.3 Key Features of NPM
+- Ansible Variable Precedence  
+  https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_variables.html#understanding-variable-precedence
 
-| Feature | Description |
-|------|------------|
-| package.json | Stores dependencies & scripts |
-| Huge Registry | Millions of packages |
-| Version Control | Semantic versioning |
-| CLI Tool | Easy command-line usage |
-| Script Support | Build, test, deploy automation |
+- Ansible Command Line Tools  
+  https://docs.ansible.com/ansible/latest/cli/ansible.html
 
 ---
 
-## 4. FAQs
+## 7. Contact Information
 
-**Q1. Is React JS a framework?**  
-No, React JS is a JavaScript library.
-
-**Q2. Is NPM required for React?**  
-Yes, NPM is commonly used to install React and manage dependencies.
-
-**Q3. Can React work without NPM?**  
-Yes, but NPM is the recommended and standard approach.
-
-**Q4. What is the role of package.json?**  
-It defines project metadata, dependencies, and scripts.
-
----
-
-## 5. Contact Information
-
-| Name | Email |
-|------|-------|
-| Hardik Modi | modihardik19@gmail.com |
+| Name        | Email                    |
+|-------------|--------------------------|
+| Hardik Modi | modihardik19@gmail.com   |
