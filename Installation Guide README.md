@@ -6,7 +6,7 @@
 
 | Author           | Created    | Version | Last updated by  | Last Edited On | Pre Reviewer | L0 Reviewer | L1 Reviewer | L2 Reviewer |
 | ---------------- |---------------- | ------- | ---------------- | -------------- | ------------ | ----------- | ----------- | ----------- |
-| Gunjan Jangra  |  21-01-2026    |  1.0     | Gunjan Jangra |  21-01-2026     |              |             |             |             |
+| Gunjan Jangra  |  22-01-2026    |  1.0     | Gunjan Jangra |  22-01-2026     |              |             |             |             |
 
 ---
 
@@ -46,7 +46,7 @@ Python is widely used because:
 
 ---
 
-## Installation on Ubuntu
+## 3. Installation on Ubuntu
 ### Step 1: Update Package 
 
 ```bash
@@ -88,7 +88,7 @@ sudo update-alternatives --config python3
 ```
 ---
 
-## Quick Usage Test
+## 4. Quick Usage Test
 
 #### 1. Open Python REPL:
 
@@ -103,7 +103,7 @@ print("Python is installed successfully!")
 ```
 ---
 
-## Troubleshooting
+## 5. Troubleshooting
 | Issue |	Solution |
 | ------ | ------- |
 | python3 command not found |	Install Python: sudo apt install python3 |
@@ -120,7 +120,7 @@ print("Python is installed successfully!")
 
 ---
 
-## References
+## 7. References
 | Links	| Description |
 | ------ | ------ |
 | https://www.python.org/ | Official Python website |
@@ -128,7 +128,7 @@ print("Python is installed successfully!")
 
 ---
 
-## End Note
+## 8. End Note
 
 This documentation provides a step-by-step guide for installing, verifying, and using Python on Ubuntu.
 
