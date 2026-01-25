@@ -40,6 +40,8 @@ It removes manual work, ensures consistent deployments, and makes the release pr
 
 - Easy integration with CI/CD pipelines
 
+  ---
+
 ## 3. Workflow of Ansible Playbook CD 
 
 
